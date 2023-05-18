@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-chrome_driver_path = r'C:\Users\almokhtar\Downloads\chromedriver_win32 (6)\chromedriver.exe'
+chrome_driver_path = r'C:\Users\almokhtar\PycharmProjects\UI_Autpmation-Task\chromedriver.exe'
 
 service = Service(chrome_driver_path)
 driver = webdriver.Chrome(service=service)
