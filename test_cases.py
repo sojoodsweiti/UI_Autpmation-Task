@@ -101,6 +101,10 @@ def test_flights_search():
     # Wait for search results to load
     driver.implicitly_wait(10)
 
+    # Assert the title of the page
+    expected_title = "Air Canada"
+    actual_title = driver.title
+    assert actual_title == expected_title, f"Expected title: {expected_title}, Actual title: {actual_title}"
 
 def main():
     # Call your test case functions here
